@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contract</title>
+        <link rel="stylesheet" href="../css/style-contract.css"/>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1><a href="../index.html" class="judul">Mustika Tri Utami</a></h1>
+            <nav class="nav">
+                <span><a href="../index.html">Home</a></span>
+                <span>|</span>
+                <span><a href="about-me.html">About Me</a></span>
+                <span>|</span>
+                <span><a href="project.html">Project</a></span>
+                <span>|</span>
+                <span><a href="contract.html">Contract</a></span>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="intro">
+                <h2>Ready to Start Something Amazing?</h2>
+                <p>Have a project in mind? Let's turn your ideas into reality! From web design to data insights, I'm here to help create solutions that work. Tell me about your needs and let's begin the conversation.</p>
+            </section>
+
+            <section>
+                <form>
+                    <section>
+                        <fieldset>
+                            <legend><strong>Personal Information</strong></legend>
+
+                            <label for="name" style="margin-bottom: 5px; display: inline-block;">Full Name</label><br>
+                            <input type="text" id="name" required placeholder="Your Name" style="width: 200px; height: 22px; border-radius: 8px; margin-left: 2px;"/><br><br>
+
+                            <label for="email" style="margin-bottom: 5px; display: inline-block;">Your E-mail</label><br>
+                            <input type="email" id="email" required placeholder="Your E-mail" style="width: 200px; height: 22px; border-radius: 8px; margin-left: 2px;"/><br><br>
+
+                            <label for="tel" style="margin-bottom: 5px; display: inline-block;">Your WhatsApp Number</label><br>
+                            <input type="tel" id="tel" required placeholder="Use country code without +" style="width: 200px; height: 22px; border-radius: 8px; margin-left: 2px;"/>
+                        </fieldset>
+                    </section>
+
+                    <section>
+                        <fieldset>
+                            <legend><strong>Project Information</strong></legend>
+
+                            <label for="website-type" style="margin-bottom: 5px; display: inline-block;">What type of website do you want to build?</label><br>
+                            <select id="website-type" style="width: 200px; height: 22px; border-radius: 8px; margin-left: 2px;">
+                                <option value="#">Choose One</option>
+                                <option value="business-website">Business Website</option>
+                                <option value="portfolio-website">Portfolio Website</option>
+                                <option value="custom">Custom Web App</option>
+                            </select><br><br>
+
+                            <label for="design" style="margin-bottom: 5px; display: inline-block;">Do you already have design materials?</label><br>
+                            <input type="radio" id="yes-design" name="design" value="yes-design">
+                            <label for="html">Yes</label>
+                            <input type="radio" id="no-design" name="design" value="no-design">
+                            <label for="css">No</label><br><br>
+
+                            <label for="describe" style="margin-bottom: 5px; display: inline-block;">Project Goals / Description:</label><br>
+                            <textarea id="describe" name="describe" placeholder="Our Project Goals" rows="6" cols="50" required style="margin-left: 2px; border-radius: 8px;"></textarea><br><br>
+
+                            <label for="reference" style="margin-bottom: 5px; display: inline-block;">Upload a Reference Image:</label>
+                            <input type="file" id="reference" name="reference"/>
+                        </fieldset>
+                    </section>
+
+                    <section>
+                        <fieldset>
+                            <legend><strong>Timeline and Expectations</strong></legend>
+
+                            <label for="date" style="margin-bottom: 5px; display: inline-block;">Expected Start Date:</label><br>
+                            <input type="date" id="date" style="height: 22px; border-radius: 8px; margin-left: 2px;"/><br><br>
+
+                            <label for="estimated" style="margin-bottom: 5px; display: inline-block;">Estimated Duration (weeks):</label><br>
+                            <input type="number" id="estimated" required placeholder="e.g 6" style="width: 80px; height: 22px; border-radius: 8px; margin-left: 2px;"/>
+                        </fieldset>
+                    </section>
+                    
+                    <button type="submit" class="submit">Send Proposal</button>
+                    <button type="reset" class="reset">Reset Proposal</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+        <p>Let's connect!</p>
+        <nav class="nav">
+            <span><a href="https://www.linkedin.com/in/mustika-tri-utami/">LinkedIn</a></span>
+            <span>|</span>
+            <span><a href="https://github.com/mtutami22">GitHub</a></span>
+        </nav>
+    </footer>
+    </body>
+</html>

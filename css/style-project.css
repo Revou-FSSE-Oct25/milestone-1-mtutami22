@@ -12,9 +12,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1{
+.judul{
     font-size: large;
-    color: #C75D2C;
+    color: #C75D2C !important;
+    text-decoration: none !important;
 }
 
 .nav{
@@ -53,9 +54,7 @@ section p{
 
 .footer{
     background-color: #F8B259;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     padding: 15px 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
